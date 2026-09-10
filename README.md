@@ -1,125 +1,202 @@
 # 👋 Hi, I'm Prathamesh Narale
 
+<p align="center">
+  <img src="./3d-profile-banner.gif" alt="Prathamesh Narale 3D animated profile banner" width="100%"/>
+</p>
+
+<p align="center">
+  <b>💻 Java Full Stack Developer • React.js • Spring Boot • REST APIs • MySQL</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
+
+---
+
 ## 🧑‍💻 Who I Am
+
+I'm a **Java Full Stack Developer** and Computer Engineering graduate who enjoys turning ideas into clean, practical and user-friendly applications.
 
 ```typescript
 const prathameshNarale = {
   title: "Java Full Stack Developer",
-  stack: {
-    languages: ["Java", "JavaScript", "SQL"],
-    frontend: ["HTML5", "CSS3", "Bootstrap", "React.js"],
-    backend: ["Spring Boot", "Spring MVC", "Spring Security", "Hibernate", "JDBC", "REST APIs", "JWT Authentication"],
-    databases: ["MySQL", "PostgreSQL"],
-    tools: ["Git", "GitHub", "Maven", "Eclipse", "VS Code", "Postman"],
-  },
-  launchedProjects: [
-    "Real-Time Collaborative Whiteboard",
-    "AI-Task-Manager",
-    "Hospital-Management-System",
+  languages: ["Java", "JavaScript", "SQL", "TypeScript"],
+  frontend: ["HTML5", "CSS3", "Bootstrap", "React.js"],
+  backend: [
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Security",
+    "Hibernate",
+    "JDBC",
+    "REST APIs",
+    "JWT Authentication"
   ],
-  certifications: [
-    "GenAI Powered Data Analytics – TATA (Forage)",
-    "IBM Java Programming Certificate",
-    "IBM SQL & Relational Database Certificate & HTML & CSS",
-    "Java Full Stack Development Course – IT Vedant, Pimpri Pune",
-  ],
-  status: "B.Tech Computer Science Graduate (2022 – 2026)",
+  databases: ["MySQL", "PostgreSQL"],
+  tools: ["Git", "GitHub", "Maven", "Eclipse", "VS Code", "Postman", "Docker"],
+  currentFocus: "Building scalable full-stack applications",
   openTo: [
-    "React Developer Roles",
     "Java Full Stack Developer Roles",
+    "React Developer Roles",
     "Software Developer Opportunities",
-    "Collaboration",
-  ],
+    "Internships",
+    "Collaboration"
+  ]
 };
 ```
 
-## 🚀 Featured Projects
+---
 
-### 🎨 Real-Time Collaborative Whiteboard
+# 🚀 Featured Projects
 
-A real-time collaborative whiteboard application that allows multiple authenticated users to create or join shared drawing sessions and collaborate simultaneously.
+## 📚 Digital Library Management System — Libris
 
-| Layer | Technology |
-|---|---|
-| Frontend | React.js, TypeScript, Bootstrap 5 |
-| Backend | Node.js, Express.js, Socket.IO |
-| Authentication | Keycloak |
-| Drawing | Fabric.js |
-| Export | jsPDF, Canvas |
-| Real-Time | WebSocket / Socket.IO |
-| DevOps | Docker, Docker Compose |
+A modern full-stack digital library platform built with **React.js + Vite**, **Spring Boot REST API**, and **MySQL**.
 
-#### ✨ Key Features
+### ✨ Features
 
-- 🔐 Secure user authentication using Keycloak
-- 🧑‍🤝‍🧑 Create and join collaborative whiteboard sessions
-- 🎨 Multiple drawing colors
-- 🖌️ Adjustable brush sizes
-- 🔄 Real-time drawing synchronization
-- 🖱️ Real-time collaborator cursor tracking
-- ↩️ Undo and Redo functionality
-- 🖼️ Export whiteboard as an image
-- 📄 Export whiteboard as PDF
-- 📋 Copy and share Session ID
-- 🚪 Leave collaborative sessions
-- 📱 Responsive interface
-- 🖥️ Large drawing canvas with scrolling support
-- 🐳 Docker-based Keycloak setup
+- 🔐 Login / Registration
+- 🛡️ Admin Dashboard
+- 📚 Add / Edit / Delete Books
+- 🔎 Search by title, author and ISBN
+- 🏷️ Genre filtering
+- 📖 Borrow / Return
+- 🔖 Reserve unavailable books
+- 💰 Automatic overdue fine calculation
+- 📋 My Shelf
+- 📞 Contact form
+- 🎨 Modern responsive Libris UI
 
-🔗 [Code](https://github.com/prathamesh-0045/real-time-collaborative-whiteboard)
+### 🛠️ Stack
+
+`React.js` `Vite` `Java` `Spring Boot` `REST API` `Spring Data JPA` `Hibernate` `MySQL` `BCrypt` `Maven`
+
+### 🔗 Project
+
+**[📚 View Digital Library Repository](https://github.com/prathamesh-0045/DigitalLibrary)**
 
 ---
 
-### 🗂️ AI Task Manager
+## 🎨 Real-Time Collaborative Whiteboard
 
-Full-stack task management app with JWT-secured authentication and AI-powered task generation.
+Real-time collaborative drawing platform where authenticated users can create or join shared sessions and draw together.
 
-| Layer | Technology |
-|---|---|
-| Frontend | React.js |
-| Backend | Spring Boot, REST APIs |
-| Database | MySQL |
-| Auth | JWT Authentication |
+**Tech:** React.js • TypeScript • Node.js • Express.js • Socket.IO • Keycloak • Fabric.js • Docker
 
-🔗 [Code](https://github.com/prathamesh-0045/AI-Task-Manager)
+### ✨ Highlights
+
+- 🔐 Keycloak authentication
+- 🧑‍🤝‍🧑 Collaborative sessions
+- 🎨 Drawing tools and colors
+- 🔄 Real-time synchronization
+- 🖱️ Live collaborator cursors
+- ↩️ Undo / Redo
+- 🖼️ Image export
+- 📄 PDF export
+- 🐳 Docker setup
+
+**[🎨 View Repository](https://github.com/prathamesh-0045/real-time-collaborative-whiteboard)**
 
 ---
 
-### 🏥 Hospital Management System
+## 🤖 AI Task Manager
 
-Centralized web application to manage patients, doctors, and appointments with a layered, maintainable architecture.
+Full-stack task management application with JWT authentication and AI-powered task generation.
 
-| Layer | Technology |
+**Tech:** React.js • Spring Boot • REST APIs • MySQL • Spring Security • JWT • BCrypt
+
+### ✨ Highlights
+
+- 🔐 JWT authentication
+- 🤖 AI-powered task generation
+- ➕ Create tasks
+- ✏️ Update tasks
+- 🗑️ Delete tasks
+- 📊 Dashboard
+- 🏷️ Priority and status management
+- 📅 Due dates
+
+**[🤖 View Repository](https://github.com/prathamesh-0045/AI-Task-Manager)**
+
+---
+
+## 🏥 Hospital Management System
+
+A centralized web application for managing patients, doctors and appointments using a clean layered architecture.
+
+**Tech:** React.js • Spring Boot • REST APIs • MySQL
+
+**[🏥 View Repository](https://github.com/prathamesh-0045/Hospital-Management-System)**
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
 |---|---|
-| Frontend | React.js |
-| Backend | Spring Boot, REST APIs |
-| Database | MySQL |
-| Architecture | Controller, Service, Repository, Entity |
+| ☕ Languages | Java, JavaScript, SQL, TypeScript |
+| 🎨 Frontend | HTML5, CSS3, Bootstrap, React.js |
+| ⚙️ Backend | Spring Boot, Spring MVC, Spring Security, Hibernate, JDBC |
+| 🔗 APIs | REST APIs, JWT Authentication |
+| 🗄️ Database | MySQL, PostgreSQL |
+| 🔧 Tools | Git, GitHub, Maven, Eclipse, VS Code, Postman |
+| 🐳 DevOps | Docker, Docker Compose |
 
-🔗 [Code](https://github.com/prathamesh-0045/Hospital-Management-System)
+---
 
-## 🛠️ Tech Stack
+# 🏆 Certifications
 
-### Languages
-Java • JavaScript • SQL
+- 🎓 GenAI Powered Data Analytics — TATA Forage
+- ☕ IBM Java Programming Certificate
+- 🗄️ IBM SQL & Relational Database Certificate
+- 🌐 IBM HTML & CSS Certificate
+- 💻 Java Full Stack Development — IT Vedant, Pimpri Pune
 
-### Frontend
-HTML5 • CSS3 • Bootstrap • React.js • TypeScript
+---
 
-### Backend
-Spring Boot • Spring MVC • Spring Security • Hibernate • JDBC • REST APIs • JWT Authentication
+# 📊 GitHub Stats
 
-### Databases
-MySQL • PostgreSQL
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=prathamesh-0045&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub Stats"/>
+</p>
 
-### Dev Tools
-Git • GitHub • Maven • Eclipse • VS Code • Postman • Docker
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prathamesh-0045&layout=compact&hide_border=true" alt="Top Languages"/>
+</p>
 
-## 📊 GitHub Stats
+---
 
-![Prathamesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=prathamesh-0045&show_icons=true&hide_border=true)
+# 🎯 Current Focus
 
-## 🤝 Connect With Me
+```text
+🚀 Advanced Spring Boot
+🔐 Spring Security & JWT
+⚛️ React.js
+🗄️ SQL & Database Design
+🧩 REST API Development
+🏗️ Microservices
+☁️ Cloud & Deployment
+🤖 AI Integration
+```
 
-- 💻 GitHub: [prathamesh-0045](https://github.com/prathamesh-0045)
-- 🔗 LinkedIn: [Prathamesh Narale](https://www.linkedin.com/in/prathamesh-narale-479b14293/)
+---
+
+# 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://github.com/prathamesh-0045">
+    <img src="https://img.shields.io/badge/GitHub-prathamesh--0045-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/prathamesh-narale-479b14293/">
+    <img src="https://img.shields.io/badge/LinkedIn-Prathamesh%20Narale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <b>⭐ Build • Learn • Improve • Repeat ⭐</b>
+</p>
