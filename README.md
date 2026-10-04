@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0891b2,100:22d3ee&height=200&section=header&text=Prathamesh%20Narale&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Java%20Full%20Stack%20Developer%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20React.js&descSize=18&descAlignY=60" width="100%" alt="header"/>
 
 <p align="center">
-  <img src="./assets/profile-3d.svg" alt="Prathamesh Narale Profile" width="400"/>
+  <img src="./profile-3d.svg" alt="Prathamesh Narale Profile" width="400"/>
 </p>
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Hi+%F0%9F%91%8B+I'm+Prathamesh;I+build+full-stack+apps+with+Java+%26+Spring+Boot;React.js+frontends+%2B+secure+REST+APIs;B.E.+Computer+Engineering+%E2%80%A2+Pune%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
